@@ -17,6 +17,10 @@ namespace Övningsuppgifter
                 Greetings(namn);
             }
             GenerrateMessage(FullName("Axel", "Svensson"), FullName("Ronja", "Rövardotter"), Medelvärde(19, 29));
+
+            //Dag 6, Uppgift 1
+            Person p1 = new Person("Axel", "Svensson", 19);
+            p1.Greetings();
         }
 
         static void Greetings(string name)
