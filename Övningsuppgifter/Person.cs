@@ -12,6 +12,7 @@ namespace Övningsuppgifter
         public string firstName;
         public string lastName;
         public int age;
+
         public Person(string Förnamn, string Efternamn, int Ålder)
         {
             this.firstName = Förnamn;
